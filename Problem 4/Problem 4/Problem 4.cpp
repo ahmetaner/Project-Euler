@@ -47,13 +47,12 @@ int main()
             if (number.IsPalindrome(multipy_result, 6) == true) {
                 if (i * j > greatest_palindrome) {
                     greatest_palindrome = i * j;
-                    std::cout <<"i = "<< i << ", j = " << j << ", i * j " << greatest_palindrome << std::endl;
                 }
             }
             
         }
     }
-    std::cout << number.IsPalindrome(40040, 6);
+    std::cout <<greatest_palindrome << std::endl;
 }
 
 
